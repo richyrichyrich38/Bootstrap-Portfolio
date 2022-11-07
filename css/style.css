@@ -1,5 +1,6 @@
 * {
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 
 .col {
@@ -8,6 +9,9 @@
     justify-content: space-evenly
 }
 
+.navbar-brand {
+    padding-left: 20px;
+}
 
 .nav-link {
     font-weight: bold;
@@ -97,9 +101,12 @@ h1 {
     width: 100%;
 } */
 
-.mainButton:hover {
+.mainButton:hover,
+.btn:hover {
     border: 2px solid #fff;
     transition: 0.8s;
+    box-shadow: 2px 3px #888888;
+    background: transparent;
 }
 
 .aboutMe {
@@ -121,12 +128,12 @@ h2 {
 .myProjects{
     background: url(../images/Screenshot\ 2022-11-07\ at\ 10.10.14.png);
     background-size: cover;
-    height: 90%;
+    height: 80%;
 }
 
 .myProjects h2{
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
     color: #fff;
 }
 
@@ -136,4 +143,19 @@ h2 {
 
 .container-fluid  {
     color: #fff;
+}
+
+.btn {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid orangered;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
 }
