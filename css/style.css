@@ -2,12 +2,10 @@
     font-family: sans-serif;
 }
 
-.row {
-    display: flex;
-}
-
 .col {
-    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
 }
 
 
@@ -63,7 +61,7 @@ h1 {
     font-size: 70px;
 }
 
-p {
+.col-sm-8 p {
     font-size: 25px;
     padding-right: 20px;
 }
@@ -95,17 +93,19 @@ p {
     transition: 0.5s;
 }
 
-.mainButton:hover span{
+/* .mainButton:hover span{
     width: 100%;
-}
+} */
 
 .mainButton:hover {
-    border: none;
+    border: 2px solid #fff;
+    transition: 0.8s;
 }
 
 .aboutMe {
-    padding-left: 5%;
-    padding-right: 5%;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    padding: 4%;
 }
 
 h2 {
@@ -114,4 +114,26 @@ h2 {
 
 .col-sm-7 p{
     padding-bottom: 20px;
+    font-size: 25px;
+    padding-right: 20px;
+}
+
+.myProjects{
+    background: url(../images/Screenshot\ 2022-11-07\ at\ 10.10.14.png);
+    background-size: cover;
+    height: 90%;
+}
+
+.myProjects h2{
+    text-align: center;
+    padding-top: 30px;
+    color: #fff;
+}
+
+.container-fluid {
+    padding-top: 40px;
+}
+
+.container-fluid  {
+    color: #fff;
 }
