@@ -1,3 +1,7 @@
+* {
+    font-family: sans-serif;
+}
+
 .row {
     display: flex;
 }
@@ -6,7 +10,108 @@
     flex: 1;
 }
 
-.container row col-4 img {
-    height: 480px;
-    width: 357px;
+
+.nav-link {
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-nav {
+    width: 90%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: orangered;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.jumbotron {
+    background: url(../images/Screenshot\ 2022-11-07\ at\ 10.10.14.png) top center;
+    background-size: cover;
+    color: #fff;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+p {
+    font-size: 25px;
+    padding-right: 20px;
+}
+
+.mainButton {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid orangered;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.span2 {
+    background: orangered;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.mainButton:hover span{
+    width: 100%;
+}
+
+.mainButton:hover {
+    border: none;
+}
+
+.aboutMe {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.col-sm-7 p{
+    padding-bottom: 20px;
 }
