@@ -1,0 +1,12 @@
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+}
+
+.container row col-4 img {
+    height: 480px;
+    width: 357px;
+}
