@@ -3,11 +3,18 @@
     scroll-behavior: smooth;
 }
 
-.col {
+.row {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly
+
 }
+
+/* .col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+} */
 
 /* navbar section */
 
@@ -146,18 +153,17 @@ h2 {
     height: 80%;
 }
 
+
 .myProjects h2{
     text-align: center;
     padding-top: 50px;
     color: #fff;
 }
 
-.container-fluid {
-    padding-top: 40px;
-}
 
 .container-fluid  {
     color: #fff;
+    padding-top: 40px;
 }
 
 .btn {
