@@ -19,14 +19,17 @@
           
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a class="nav-link" href="#about_me">About<span class="sr-only">(current)</span></a>
-                </li>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills<span class="sr-only">(current)</span></a>
+                  </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#my_projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#contact-about">Contact / About</a>
                 </li>
               </ul>
             </div>
@@ -52,44 +55,50 @@
     </section>
 
     <main class="content">
-        <section  id="about_me" class="aboutMe">
+        <section  id="skills" class="skills">
             
             <div class="row">
-                <div class="col-sm-5">
-                    <img src="./images/ZY9Jwp3.jpeg" alt="will code for food" class="img-fluid">
-                </div>
                 <div class="col-sm-7">
-                    <h2>About Me</h2>
-                    <p>I started my professional career by operating my own telecommunications company at the age of 16, dealing in all aspects of mobile communication on a retail level.
-                        The business developed into the import and export market realising research and networking within the far east, namely China and Thailand. After several years, I moved into the financial arena by working for a private equity firm as an Account Manager where I gained a wide knowledge of financial products and strategies.</p>
+                    <img src="./images/ZY9Jwp3.jpeg" alt="will code for food" class="img-fluid" >
+                </div>
+                <div class="col-sm-5">
+                    <h2>Skills Acquired</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                        <li>Javascript</li>
+                        <li>React</li>
+                    </ul>
                 </div>
             </div>
         </section>
+    
         <section id="my_projects" class="myProjects">
             <h2>My Projects</h2>
 
             <div class="container-fluid">
                 <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <img class="card-img-top img-fluid" src="..." alt="Card image cap">
                     <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Project 1</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <img class="card-img-top img-fluid" src="..." alt="Card image cap">
                     <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Project 2</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <img class="card-img-top img-fluid" src="..." alt="Card image cap">
                     <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Project 3</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
@@ -97,7 +106,31 @@
                 </div>
             </div>
         </section>
+        <section  id="contact-about" class="contact-about">
+            
+            <div class="row">
+                <div class="col-sm-7 about">
+                    <h2>About Me</h2>
+                    <p>I started my professional career by operating my own telecommunications company at the age of 16, dealing in all aspects of mobile communication on a retail level.
+                        The business developed into the import and export market realising research and networking within the far east, namely China and Thailand. After several years, I moved into the financial arena by working for a private equity firm as an Account Manager where I gained a wide knowledge of financial products and strategies.</p><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vel iusto blanditiis eaque, dicta sed! Quo molestiae officia, amet minima iure, quidem veniam accusantium ab ducimus itaque culpa, eum numquam!</p>
+                </div>
+                <div class="col-sm-5 contact">
+                    <h2>Let's talk!</h2>
+                    <p>Get in touch via the form below, or by emailing <a class="email" href="mailto:test@test.com">test@test.com</a></p>
+                    <form action="mailto:test@test.com">
+                    <input type="text" class="input" name="name" placeholder="Name" required>
+                    <input type="email" class="input" name="email" placeholder="Email" required>
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="Message"></textarea>
+                     <a href="#"><button class="submit btn-2" type="button" aria-placeholder="Submit"><span></span>Submit</button></a>
+                    </form>
+                </div>
+                
+            </div>
+        </section>
     </main>
-
+    <footer>
+        <p>&copy;2022 Richard Hills Jr</p>
+    </footer>
   </body>
 </html>
