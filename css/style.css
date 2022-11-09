@@ -248,6 +248,15 @@ footer{
     text-align: center;
 }
 
+footer a {
+    color: orangered;
+}
+
+footer a:hover{
+    color: #555;
+    transition: 0.8s;
+}
+
 
 /* ---------new projects----------- */
 
