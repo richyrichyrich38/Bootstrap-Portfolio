@@ -21,6 +21,23 @@ To view the site please go to https://richyrichyrich38.github.io/Bootstrap-Portf
 
 ## Screenshots
 
+### Home
+
+<img width="1728" alt="Screenshot 2022-11-09 at 11 54 37" src="https://user-images.githubusercontent.com/85546279/200824896-095a15ce-37d6-41f3-b528-2a2a5c88ffbc.png">
+
+### Skills
+
+<img width="1728" alt="Screenshot 2022-11-09 at 11 53 52" src="https://user-images.githubusercontent.com/85546279/200825166-22f76153-3c99-405b-99cf-554241b8610f.png">
+
+### Projects
+
+<img width="1728" alt="Screenshot 2022-11-09 at 11 55 29" src="https://user-images.githubusercontent.com/85546279/200825376-e8969685-1b5f-4839-8f28-f2f1fb70b908.png">
+
+### Contact / About
+
+<img width="1728" alt="Screenshot 2022-11-09 at 11 56 31" src="https://user-images.githubusercontent.com/85546279/200825567-af2b0c62-d213-47bb-ad2b-a2306b61b07f.png">
+
+
 
 
 
